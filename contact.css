@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+}
+
+
+fieldset{
+    text-align: center;
+    margin-left: 700px;
+    margin-right: 700px ;
+    margin-top: 300px;
+    background-color: red;
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+
+nav{
+    margin-right: 310px;
+    margin-left:300px;
+    text-align: center;
+    height: 100px;
+    margin-top: 50px;
+
+}
+
+nav ul li{
+
+    display: inline-block;
+    width: 100px;
+    background-color: green;
+    color: white;
+    padding-left:50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    font-size: 25px;
+    
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    
+}
+
+header{
+    background-color: green;
+    height: 150px; 
+    width: 100%;
+    margin:0px;
+    position: fixed;
+    
+}
+
+footer{
+    background-color: red;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin-top: 130px;
+}
+
+nav ul li :hover
+{
+color: white;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <header>
+        <h1>Contact Formulier</h1>
+        <nav>
+            <ul>
+                <li><a href="Voorblad.html">Voorblad</a></li>
+                <li><a href="Tradities.html">Tradities</a></li>
+                <li><a href="Plaatsen.html">Plaatsen</a></li>
+                <li><a href="Informatie.html">Informatie</a></li>
+                <li><a href="Alfabet.html">Alfabet</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br>
+
+    <form>
+        <fieldset>
+        <legend>Vul je gegevens in</legend>
+        <label for="naam">Naam</label>
+        <input type="text" name="naam" value="naam" id="naam"  size="30" required>
+        <br><br>
+        <label for="Voornaam">Voornaam</label>
+        <input type="text" name="voornaam"  size="30" required>
+        <br><br>
+        <label for="Geboortedatum">Geboortejaar</label>
+        <input type="date" name="naam"  size="30" required>
+        <br><br>
+        <label for="Man">Man</label>
+        <input type="radio" name="Geslacht" id="Man" value="M" checked>
+        <label for="Vrouw">Vrouw</label>
+        <input type="radio" name="Geslacht" id="Vrouw" value="V" checked>
+        <br><br>
+        <label for="Leeftijd">Leeftijd</label>
+        <input type="radio" name="Leeftijd">16-18
+        <input type="radio" name="Leeftijd">18-20
+        <input type="radio" name="Leeftijd">20-22
+        <br><br>
+        <label for="e-mail">E-mail</label>
+        <input type="email" name="e-mail"  size="30" required>
+        <br><br>
+        <textarea name="commentaar" rows="10" cols="30" placeholder="Vul in"></textarea>
+        <br><br>
+        <input type="submit" name="inloggen" value="inloggen">
+        <input type="reset" name="Wissen" value="Wissen">
+
+    </form>
+</fieldset>
+
+<script>
+    
+    function inloggen()
+
+    {
+        let naam = document.getElementById("naam").value;
+
+        alert("Bedankt voor je in te loggen, " + naam + "!")
+
+    }
+    
+</script>
+    
+    
+</body>
+<br><br>
+<footer>
+    Contactgegevens
+    <hr>
+    <br><br>
+    Email:
+    <br><br>
+    RashidKhalidov@gmail.com
+    <br><br>
+    Telnr:
+    <br>
+    045863839
+    <br><br>
+</footer>
+</html>
